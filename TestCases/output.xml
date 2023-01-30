@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.9 on win32)" generated="20230125 18:20:08.062" rpa="false" schemaversion="3">
+<suite id="s1" name="SetupAndTeardown" source="C:\Users\ritik\PycharmProjects\robo-project\TestCases\SetupAndTeardown.robot">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>opening Browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.089" level="INFO">opening Browser</msg>
+<status status="PASS" starttime="20230125 18:20:08.089" endtime="20230125 18:20:08.089"/>
+</kw>
+<test id="s1-t1" name="TC1" line="12">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>Login to application</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.089" level="INFO">Login to application</msg>
+<status status="PASS" starttime="20230125 18:20:08.089" endtime="20230125 18:20:08.089"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Testcase 1 executed successfully</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230125 18:20:08.090" endtime="20230125 18:20:08.090"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>logout to application</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.090" level="INFO">logout to application</msg>
+<status status="PASS" starttime="20230125 18:20:08.090" endtime="20230125 18:20:08.090"/>
+</kw>
+<status status="PASS" starttime="20230125 18:20:08.089" endtime="20230125 18:20:08.090"/>
+</test>
+<test id="s1-t2" name="TC2" line="15">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>Login to application</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.091" level="INFO">Login to application</msg>
+<status status="PASS" starttime="20230125 18:20:08.091" endtime="20230125 18:20:08.091"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Testcase 2 executed successfully</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230125 18:20:08.091" endtime="20230125 18:20:08.091"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>logout to application</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.091" level="INFO">logout to application</msg>
+<status status="PASS" starttime="20230125 18:20:08.091" endtime="20230125 18:20:08.091"/>
+</kw>
+<status status="PASS" starttime="20230125 18:20:08.091" endtime="20230125 18:20:08.092"/>
+</test>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>closing browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230125 18:20:08.092" level="INFO">closing browser</msg>
+<status status="PASS" starttime="20230125 18:20:08.092" endtime="20230125 18:20:08.092"/>
+</kw>
+<status status="PASS" starttime="20230125 18:20:08.067" endtime="20230125 18:20:08.092"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="SetupAndTeardown">SetupAndTeardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
